@@ -2,7 +2,11 @@ import { Application, Router } from "https://deno.land/x/oak/mod.ts";
 
 const app = new Application();
 
-const books = new Map([[1, "one"], [2, "two"], [3, "three"]]);
+const books = new Map([
+  [1, "one"],
+  [2, "two"],
+  [3, "three"]
+]);
 
 const router = new Router();
 
